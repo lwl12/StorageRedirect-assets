@@ -79,8 +79,8 @@
     },
     {
       "id": "nevowechat",
-      "source_package": "com.oasisfeng.nevo.decorators.wechat",
-      "target_package": "com.tencent.mm",
+      "source_package": "com.tencent.mm",
+      "target_package": "com.oasisfeng.nevo.decorators.wechat",
       "paths": [
         "tencent"
       ]
