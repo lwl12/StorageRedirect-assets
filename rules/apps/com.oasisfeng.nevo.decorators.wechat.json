@@ -4,28 +4,12 @@
   "verified": false,
   "description": {
     "overwrite_default": true,
-    "zh_CN": "",
+    "zh_CN": "修复Nevo - 微信 · 当代通知体验<b>获取微信消息图片</b>失效",
   },
   "authors": [
     "lwl12"
   ],
   "simple_mounts": [
-    {
-      "id": "mdwechat",
-      "source_package": "com.blanke.mdwechat",
-      "target_package": "com.tencent.mm",
-      "paths": [
-        "mdwechat"
-      ]
-    },
-    {
-      "id": "wexposed",
-      "source_package": "com.fkzhang.wechatxposed",
-      "target_package": "com.tencent.mm",
-      "paths": [
-        "WechatXposed"
-      ]
-    },
     {
       "id": "nevowechat",
       "source_package": "com.tencent.mm",
@@ -36,18 +20,8 @@
     }
   ],
   "simple_mounts_descriptions": {
-    "mdwechat": {
-      "zh_CN": "修复 <b>MDWeChat</b> 失效",
-      "zh": "修復 <b>MDWeChat</b> 失效",
-      "en": "Fix <b>MDWeChat</b> not work"
-    },
-    "wexposed": {
-      "zh_CN": "修复 <b>WeXposed（微X模块）</b> 失效",
-      "zh": "修復 <b>WeXposed</b> 失效",
-      "en": "Fix <b>WeXposed</b> not work"
-    },
     "nevowechat": {
-      "zh_CN": "修复 <b>Nevo - 微信 · 当代通知体验</b> 失效"
+      "zh_CN": "修复Nevo - 微信 · 当代通知体验<b>获取微信消息图片</b>失效"
     }
   }
 }
