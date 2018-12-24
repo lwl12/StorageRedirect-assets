@@ -76,14 +76,6 @@
       "paths": [
         "WechatXposed"
       ]
-    },
-    {
-      "id": "nevowechat",
-      "source_package": "com.tencent.mm",
-      "target_package": "com.oasisfeng.nevo.decorators.wechat",
-      "paths": [
-        "tencent"
-      ]
     }
   ],
   "simple_mounts_descriptions": {
@@ -96,9 +88,6 @@
       "zh_CN": "修复 <b>WeXposed（微X模块）</b> 失效",
       "zh": "修復 <b>WeXposed</b> 失效",
       "en": "Fix <b>WeXposed</b> not work"
-    },
-    "nevowechat": {
-      "zh_CN": "修复 <b>Nevo - 微信 · 当代通知体验</b> 失效"
     }
   }
 }
